@@ -3,7 +3,7 @@ const panels = document.querySelectorAll('.panel')
 panels.forEach(panel => {
     panel.addEventListener('click', () =>{
         if(panel.classList.value == 'panel active'){
-            window.location.href = 'http://www.google.com';
+            console.log(window.location.href)
         }else{       
 
             removeActiveClasses()

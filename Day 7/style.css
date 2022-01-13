@@ -74,6 +74,7 @@ h1 {
   top: 20%;
   transform: translateX(-50%);
   white-space: nowrap;
+  transition: all var(--speed);
 }
 
 .btn {
@@ -92,6 +93,7 @@ h1 {
   text-transform: uppercase;
   width: 15rem;
   padding: 1.5rem;
+  transition: all var(--speed);
 }
 
 .split.left .btn:hover {
@@ -130,10 +132,12 @@ h1 {
 @media (max-width: 800px) {
   h1 {
     font-size: 2rem;
+    transition: all var(--speed);
   }
 
   .btn {
     padding: 1.2rem;
     width: 12rem;
+    transition: all var(--speed);
   }
 }
